@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".">
+
+
+    <Button
+        android:id="@+id/buttonSatg1"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="237dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:background="@drawable/button"
+        android:text="Stage1" />
+
+    <Button
+        android:id="@+id/buttonSatg2"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonSatg1"
+        android:layout_alignEnd="@+id/buttonSatg1"
+        android:layout_alignRight="@+id/buttonSatg1"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="-13dp"
+        android:layout_marginRight="-13dp"
+        android:background="@drawable/button"
+        android:text="Stage2" />
+
+    \
+</RelativeLayout>

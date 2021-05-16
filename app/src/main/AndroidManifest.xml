@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jovanovic.stefan.sqlitetutorial">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".saturday.saturdaystage2.UpdateActivityst2"
+            android:parentActivityName=".saturday.saturdaystage2.UpdateActivityst2"></activity>
+        <activity android:name=".saturday.saturdaystage2.MainActivityst2"
+            android:label="Broadcast"
+            android:parentActivityName=".saturday.saturdaystage2.MainActivityst2"/>
+        <activity android:name=".saturday.saturdaystage2.AddActivityst2"
+            android:label="Add Task"
+            android:parentActivityName=".saturday.saturdaystage2.AddActivityst2"/>
+        <activity android:name=".saturday.saturdaystage1.UpdateActivityst1"
+            android:parentActivityName=".saturday.saturdaystage1.UpdateActivityst1"/>
+        <activity android:name=".saturday.saturdaystage1.MainActivityst1"
+            android:label="Broadcast"
+            android:parentActivityName=".saturday.saturdaystage1.MainActivityst1"/>
+        <activity android:name=".saturday.saturdaystage1.AddActivityst1"
+            android:label="Add Task"
+            android:parentActivityName=".saturday.saturdaystage1.AddActivityst1"/>
+        <activity android:name=".saturday.saturdaystage"
+            android:label="Stage"
+            android:parentActivityName=".saturday.saturdaystage"/>
+        <activity
+            android:name=".friday.fridaystage2.UpdateActivityf2"
+            android:parentActivityName=".friday.fridaystage2.UpdateActivityf2" />
+        <activity
+            android:name=".friday.fridaystage2.MainActivityf2"
+            android:label="Broadcast"
+            android:parentActivityName=".friday.fridaystage2.MainActivityf2" />
+        <activity
+            android:name=".friday.fridaystage2.AddActivityf2"
+            android:label="Add Task"
+            android:parentActivityName=".friday.fridaystage2.AddActivityf2" />
+        <activity
+            android:name=".friday.fridaystage1.UpdateActivityf1"
+            android:parentActivityName=".friday.fridaystage1.UpdateActivityf1" />
+        <activity
+            android:name=".friday.fridaystage1.MainActivityf1"
+            android:label="Broadcast"
+            android:parentActivityName=".friday.fridaystage1.MainActivityf1" />
+        <activity
+            android:name=".friday.fridaystage1.AddActivityf1"
+            android:label="Add Task"
+            android:parentActivityName=".friday.fridaystage1.AddActivityf1" />
+        <activity
+            android:name=".friday.feidaystagw"
+            android:label="Stage"
+            android:parentActivityName=".friday.feidaystagw" />
+        <activity
+            android:name=".thursday.Thuersdaystage"
+            android:label="Stage"
+            android:parentActivityName=".thursday.Thuersdaystage" />
+        <activity
+            android:name=".thursday.thursdaystage2.UpdateActivityth2"
+            android:parentActivityName=".thursday.thursdaystage2.UpdateActivityth2" />
+        <activity
+            android:name=".thursday.thursdaystage2.MainActivityth2"
+            android:label="Broadcast"
+            android:parentActivityName=".thursday.thursdaystage2.MainActivityth2" />
+        <activity
+            android:name=".thursday.thursdaystage2.AddActivityth2"
+            android:label="Add task"
+            android:parentActivityName=".thursday.thursdaystage2.AddActivityth2" />
+        <activity
+            android:name=".thursday.thursdaystage1.UpdateActivityth1"
+            android:parentActivityName=".thursday.thursdaystage1.UpdateActivityth1" />
+        <activity
+            android:name=".thursday.thursdaystage1.MainActivityth1"
+            android:label="Broadcast"
+            android:parentActivityName=".thursday.thursdaystage1.MainActivityth1" />
+        <activity
+            android:name=".thursday.thursdaystage1.AddActivityth1"
+            android:label="Add task"
+            android:parentActivityName=".thursday.thursdaystage1.AddActivityth1" />
+        <activity
+            android:name=".wednesday.Wednesdaystage"
+            android:label="Stage"
+            android:parentActivityName=".wednesday.Wednesdaystage" />
+        <activity
+            android:name=".wednesday.wednesdaystage2.UpdateActivityw2"
+            android:parentActivityName=".wednesday.wednesdaystage2.UpdateActivityw2" />
+        <activity
+            android:name=".wednesday.wednesdaystage2.MainActivityw2"
+            android:label="Broadcast"
+            android:parentActivityName=".wednesday.wednesdaystage2.MainActivityw2" />
+        <activity
+            android:name=".wednesday.wednesdaystage2.AddActivityw2"
+            android:label="Add Task"
+            android:parentActivityName=".wednesday.wednesdaystage2.AddActivityw2" />
+        <activity
+            android:name=".wednesday.wednesdaystage1.UpdateActivityw1"
+            android:parentActivityName=".wednesday.wednesdaystage1.UpdateActivityw1" />
+        <activity
+            android:name=".wednesday.wednesdaystage1.MainActivityw1"
+            android:label="Broadcast"
+            android:parentActivityName=".wednesday.wednesdaystage1.MainActivityw1" />
+        <activity
+            android:name=".wednesday.wednesdaystage1.AddActivityw1"
+            android:label="Add task"
+            android:parentActivityName=".wednesday.wednesdaystage1.AddActivityw1" />
+        <activity
+            android:name=".tuesday.tuesdaystage2.UpdateActivitytu2"
+            android:parentActivityName=".tuesday.tuesdaystage2.UpdateActivitytu2" />
+        <activity
+            android:name=".tuesday.tuesdaystage2.AddActivitytu2"
+            android:label="Add Task"
+            android:parentActivityName=".tuesday.tuesdaystage2.AddActivitytu2" />
+        <activity
+            android:name=".tuesday.tuesdaystage1.UpdateActivitytu1"
+            android:parentActivityName=".tuesday.tuesdaystage1.UpdateActivitytu1" />
+        <activity
+            android:name=".tuesday.tuesdaystage1.AddActivitytu1"
+            android:label="Add Task"
+            android:parentActivityName=".tuesday.tuesdaystage1.AddActivitytu1" />
+        <activity
+            android:name=".tuesday.Tuesdaystage"
+            android:label="Stage"
+            android:parentActivityName=".tuesday.Tuesdaystage" />
+        <activity
+            android:name=".tuesday.tuesdaystage1.MainActivitytu1"
+            android:label="Broadcast"
+            android:parentActivityName=".tuesday.tuesdaystage1.MainActivitytu1" />
+        <activity
+            android:name=".tuesday.tuesdaystage2.MainActivitytu2"
+            android:label="Broadcast"
+            android:parentActivityName=".tuesday.tuesdaystage2.MainActivitytu2" />
+        <activity
+            android:name=".monday.mondaystage2.UpdateActivitym2"
+            android:parentActivityName=".monday.mondaystage2.UpdateActivitym2" />
+        <activity
+            android:name=".monday.mondaystage2.AddActivitym2"
+            android:label="Add Task"
+            android:parentActivityName=".monday.mondaystage2.AddActivitym2" />
+        <activity
+            android:name=".monday.mondaystage1.UpdateActivitym1"
+            android:parentActivityName=".monday.mondaystage1.UpdateActivitym1" />
+        <activity
+            android:name=".monday.mondaystage1.AddActivitym1"
+            android:label="Add Task"
+            android:parentActivityName=".monday.mondaystage1.AddActivitym1" />
+        <activity
+            android:name=".monday.mondaystage2.MainActivitym2"
+            android:label="Broadcast"
+            android:parentActivityName=".monday.mondaystage2.MainActivitym2" />
+        <activity
+            android:name=".monday.mondaystage1.MainActivitym1"
+            android:label="Broadcast"
+            android:parentActivityName=".monday.mondaystage1.MainActivitym1" />
+        <activity
+            android:name=".monday.Mondaystage"
+            android:label="Stage"
+            android:parentActivityName=".monday.Mondaystage" />
+        <activity
+            android:name=".sunday.sundaystage2.UpdateActivitys2"
+            android:parentActivityName=".sunday.sundaystage2.UpdateActivitys2" />
+        <activity
+            android:name=".sunday.sundaystage2.MainActivitys2"
+            android:label="Broadcast"
+            android:parentActivityName=".sunday.sundaystage2.MainActivitys2" />
+        <activity
+            android:name=".sunday.sundaystage2.AddActivitys2"
+            android:label="Add Task"
+            android:parentActivityName=".sunday.sundaystage2.AddActivitys2" />
+        <activity
+            android:name=".sunday.Sundaystage1"
+            android:label="Stages"
+            android:parentActivityName=".sunday.Sundaystage1" />
+        <activity
+            android:name=".DayActivity"
+            android:label="Week Days" />
+        <activity
+            android:name=".Splash"
+            android:theme="@style/splashth">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sunday.sundaystage1.UpdateActivity"
+            android:parentActivityName=".sunday.sundaystage1.MainActivity" />
+        <activity
+            android:name=".sunday.sundaystage1.AddActivity"
+            android:label="Add Task"
+            android:parentActivityName=".sunday.sundaystage1.AddActivity" />
+        <activity
+            android:name=".sunday.sundaystage1.MainActivity"
+            android:label="Broadcast"
+            android:parentActivityName=".sunday.sundaystage1.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
